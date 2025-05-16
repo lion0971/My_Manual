@@ -115,3 +115,18 @@ git pull
 當你在 VSCode 或 Git Bash push，出現問：  
 Username ➔ 輸入你的 GitHub 帳號  
 Password ➔ 貼上剛剛的 Token！（不是你平常登入的密碼喔！）
+### 在某個資料夾的終端機（Terminal）裡，根據 requirements.txt 檔案安裝裡面列出的所有 Python 套件
+'''terminal
+pip install -r requirements.txt
+'''
+
+### 開啟flask
+'''terminal
+flask --app 網頁名稱(不用副檔名) run
+'''
+
+### 開啟檔案儲存後自動更新網頁功能
+'''terminal
+flask --app 網頁名稱(不用副檔名) run --debug
+'''
+
