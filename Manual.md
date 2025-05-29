@@ -129,4 +129,6 @@ flask --app 網頁名稱(不用副檔名) run
 '''terminal
 flask --app 網頁名稱(不用副檔名) run --debug
 '''
+### 刪除git動作
+git reset HEAD
 
