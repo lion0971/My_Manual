@@ -132,3 +132,12 @@ flask --app 網頁名稱(不用副檔名) run --debug
 ### 刪除git動作
 git reset HEAD
 
+### 還沒建立 requirements.txt 可以這樣自動產生
+'''terminal
+pip freeze > requirements.txt
+'''
+
+### 放在專案資料夾，未來就可以這樣快速安裝
+'''terminal
+pip install -r requirements.txt
+'''
