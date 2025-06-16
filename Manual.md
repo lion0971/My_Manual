@@ -141,3 +141,10 @@ pip freeze > requirements.txt
 '''terminal
 pip install -r requirements.txt
 '''
+
+| 操作                 | 是否保留本地異動紀錄   |
+| ------------------ | ------------ |
+| 普通 `git pull`      | 會合併，保留並提示衝突  |
+| `git reset --hard` | 不保留，直接覆蓋本地改動 |
+| `git clean -fd`    | 移除未被追蹤的檔案    |
+
