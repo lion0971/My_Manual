@@ -148,3 +148,7 @@ pip install -r requirements.txt
 | `git reset --hard` | 不保留，直接覆蓋本地改動 |
 | `git clean -fd`    | 移除未被追蹤的檔案    |
 
+### 當忘先下載而直接上傳時，強制上傳
+'''terminal
+git push --force
+
