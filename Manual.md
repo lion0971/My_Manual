@@ -152,3 +152,27 @@ pip install -r requirements.txt
 '''terminal
 git push --force
 
+### 檢查目前已建立的虛擬環境
+'''terminal
+conda env list
+'''
+
+### 建立虛擬環境
+'''terminal
+conda create --name myenv python=3.10
+'''
+
+### 啟動虛擬環境
+'''terminal
+conda activate myenv
+'''
+
+### 離開虛擬環境
+'''terminal
+conda deactivate
+'''
+
+###Github從commit遏回(-1 退一次，-2…)
+'''terminal
+git reset HEAD~2
+'''
