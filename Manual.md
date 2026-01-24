@@ -216,5 +216,5 @@ B. 關於 ngrok 的網址問題
 
 PowerShell
 ngrok http --domain=你的永久網址.ngrok-free.app 5678
-💡 最後一個溫馨提醒
-如果你發現開機後 docker start 失敗，通常是因為 Docker Desktop 還沒啟動完成。請先確認電腦右下角工具列的鯨魚小圖示已經變成綠色（不再閃爍），再下指令喔！
+**溫馨提醒
+如果你發現開機後 docker start 失敗，通常是因為 Docker Desktop 還沒啟動完成。請先確認電腦右下角工具列的鯨魚小圖示已經變成綠色（不再閃爍），再下指令喔！**
