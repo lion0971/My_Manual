@@ -172,12 +172,12 @@ conda activate myenv
 conda deactivate
 '''
 
-###Github從commit遏回(-1 退一次，-2…)
+### Github從commit遏回(-1 退一次，-2…)
 '''terminal
 git reset HEAD~2
 '''
 
-###關於以後開機的操作，我有兩個建議：一個是手動版，一個是全自動版。
+### 關於以後開機的操作，我有兩個建議：一個是手動版，一個是全自動版。
 
 1. 手動版（你現在的做法）
 沒錯，以後你重新開機後，原本運作的容器和 ngrok 會是關閉狀態。你需要依序執行：
