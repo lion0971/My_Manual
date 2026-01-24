@@ -187,21 +187,23 @@ git reset HEAD~2
 
 啟動 n8n 容器：
 
-PowerShell
+```PowerShell
 docker start my-n8n
+```
 啟動 ngrok 穿透（注意：免費版每次啟動，網址都會變）：
 
-PowerShell
+```PowerShell
 ngrok http 5678
-
+```
 2. 全自動版（更聰明的做法）
 如果你希望每次開機，n8n 就自動幫你準備好，你可以調整一下設定：
 
 A. 讓 Docker 容器開機自動啟動
 你可以對現有的容器下這個指令，以後只要 Docker Desktop 有啟動，n8n 就會跟著活過來：
 
-PowerShell
+```PowerShell
 docker update --restart always my-n8n
+```
 B. 關於 ngrok 的網址問題
 因為你是免費版，每次重開 ngrok http 5678 得到的網址都會變（例如從 abc.ngrok-free.app 變成 xyz.ngrok-free.app）。
 
@@ -215,6 +217,7 @@ B. 關於 ngrok 的網址問題
 
 以後啟動指令改成：
 
-PowerShell
+```PowerShell
 ngrok http --domain=你的永久網址.ngrok-free.app 5678
+```
 ***溫馨提醒：如果你發現開機後 docker start 失敗，通常是因為 Docker Desktop 還沒啟動完成。請先確認電腦右下角工具列的鯨魚小圖示已經變成綠色（不再閃爍），再下指令喔！***
