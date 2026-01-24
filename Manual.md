@@ -192,6 +192,7 @@ docker start my-n8n
 
 PowerShell
 ngrok http 5678
+
 2. 全自動版（更聰明的做法）
 如果你希望每次開機，n8n 就自動幫你準備好，你可以調整一下設定：
 
